@@ -1,0 +1,25 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#tweets-container {
+  overflow-y: hidden;
+}
+
+.tweet {
+  border: 1px solid black;
+  margin: 10px 0px;
+}
+
+.tweet:hover {
+  cursor: pointer;
+}
+
+.tweet.selected {
+  background-color: red;
+}

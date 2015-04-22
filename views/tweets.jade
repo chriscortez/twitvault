@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  .container
+    .row
+      .col-xs-12
+        h1 Tweets
+        #range-box-container
+          p Hello #{screen_name}
+
+          script(src='/src/views/input_range.js' type="text/jsx")
+          script(src='/src/views/tweets_display.js' type="text/jsx")
+          script(src='/src/views/range_display.js' type="text/jsx")
+          script(src='/src/views/range_box.js' type="text/jsx")
+          script(src='/javascripts/twitter.js')
+
+    button.delete DELETE
