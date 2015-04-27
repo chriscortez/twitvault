@@ -16,6 +16,7 @@
     "dotenv": "0.4.0",
     "sequelize": "~2.0.0-rc6",
     "sequelize-cli": "~1.0.2",
-    "mysql": "~2.5.4"
+    "mysql": "~2.5.4",
+    "node-twitter-api": "~1.6.0"
   }
 }
