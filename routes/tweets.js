@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 var bodyParser = require('body-parser');
 
-var twitter = require('twitvault-twitter');
+var twitter = require('../src/modules/twitvault-twitter');
 
 /* GET home page. */
 router.get('/', function(req, res) {
